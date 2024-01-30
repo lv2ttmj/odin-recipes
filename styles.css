@@ -1,36 +1,82 @@
 /* styles.css */
+
+body {
+    background-color:cadetblue;
+    font-family: "courier-new", monospace ;
+
+}
 #main,
-#diff-recipes
- {
-    text-align: center;
-}
-#diff-recipes {
-    font-size: 30px;
-}
-#main {
-    font-size: 50px;
-}
-
-
-
-h1.pot-title
+.recipes-main,
+#goul-title,
+#pot-title,
+#beef-title
 {
-    color:orange;
-    background-color: green;
-}
-.pot-img {
-    display:block;
-    margin:auto
-}
-.pot-exp {
     text-align: center;
 }
-.pot-ingre-subhead {
-    background-color: orange;
-    color: green;
+#main,
+#goul-title,
+#pot-title,
+#beef-title
+{
+    color:lightpink;
+    font-size: 50px;
+
 }
-.pot-ingre {
-    color:orange;
-    background-color: green;
+
+.recipes-main {
+    color:white;
+    font-size: 40px;
+    background-color:lightpink;
+    padding:16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom:16px;
+    border: 10px white solid;
+    width: 400px;
 }
+/* everything above is the homepage and page titles*/
+/* next portion is the styles for american goulash, with the styles for images and explanations
+grouped together in for quick alignment*/
+
+.goul-img,
+.pot-img,
+.beef-img {
+    display:block;
+    margin:auto;
+    border:8px white solid;
+}
+
+.goul-exp,
+.pot-exp,
+.beef-exp {
+    background-color:white;
+    padding:40px;
+    text-align: center;
+
+}
+/*ingredients styling starts here, the steps subheading will also be styled here*/
+.ingre-container {
+    background-color:white;
+    margin-right:900px;
+
+}
+.subhead {
+    background-color: lightpink;
+    color:cadetblue;
+    border:8px plum solid;
+}
+
+/* the steps body will be styled here */
+
+.steps-container {
+    background-color: white;
+}
+
+
+
+
+
+
+
 
