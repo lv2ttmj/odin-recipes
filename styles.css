@@ -1,0 +1,36 @@
+/* styles.css */
+#main,
+#diff-recipes
+ {
+    text-align: center;
+}
+#diff-recipes {
+    font-size: 30px;
+}
+#main {
+    font-size: 50px;
+}
+
+
+
+h1.pot-title
+{
+    color:orange;
+    background-color: green;
+}
+.pot-img {
+    display:block;
+    margin:auto
+}
+.pot-exp {
+    text-align: center;
+}
+.pot-ingre-subhead {
+    background-color: orange;
+    color: green;
+}
+.pot-ingre {
+    color:orange;
+    background-color: green;
+}
+
