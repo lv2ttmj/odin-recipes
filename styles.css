@@ -65,6 +65,11 @@ grouped together in for quick alignment*/
     padding:40px;
     text-align: center;
 
+.big {
+    display: inline-block;
+    background-color:lightpink;
+}
+
 }
 /*ingredients styling starts here, the steps subheading will also be styled here*/
 .ingre-container {
