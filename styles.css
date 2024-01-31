@@ -35,6 +35,17 @@ body {
     border: 10px white solid;
     width: 400px;
 }
+
+/* this is the repositioning of the woman cooking on the homepage */
+
+.woman-cooking {
+    height:200px;
+    width:auto;
+    margin-left: 900px;
+    
+}
+
+
 /* everything above is the homepage and page titles*/
 /* next portion is the styles for american goulash, with the styles for images and explanations
 grouped together in for quick alignment*/
